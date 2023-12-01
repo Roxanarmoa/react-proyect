@@ -34,3 +34,12 @@
     transition: 0.3s;
     background-color: rgba(128, 0, 0, 0.507);
 }
+
+
+/* articles */
+.article-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
