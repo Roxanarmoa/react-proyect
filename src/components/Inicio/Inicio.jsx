@@ -4,6 +4,7 @@ const Inicio = () => {
 
     return (
         <div>
+            <img className="Backimg" src="./public/img/DESTACADO1.png" alt="fondo-contenedor" />
             <h1 className="first-title">Experiencia en el mundo de las bicicletas </h1>
             <h2 className="second-title">Con una amplia variedad para elegir</h2>
             <section className="btn">

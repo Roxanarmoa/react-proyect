@@ -8,7 +8,6 @@ function App() {
   return (
       <div id='app'>
         <NavBar/>
-        <img className="Backimg" src="./public/img/DESTACADO1.png" alt="fondo-contenedor" />
         <Inicio/>
       </div>
   )
