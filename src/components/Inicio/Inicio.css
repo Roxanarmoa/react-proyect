@@ -1,0 +1,36 @@
+/* main */
+
+.first-title{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.767);
+}
+.second-title{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.404);
+}
+
+/* boton  */
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.btn-catalogo{
+    font-size: 25px;
+    border-style: none;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    
+}
+.btn-catalogo:hover{
+    border-style: none;
+    color: aliceblue;
+    transition: 0.3s;
+    background-color: rgba(128, 0, 0, 0.507);
+}
