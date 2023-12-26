@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Item from "../Item/Item";
+
 import "./Inicio.scss"
 
 const Inicio = () => {
