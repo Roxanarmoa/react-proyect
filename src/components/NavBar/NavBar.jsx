@@ -1,21 +1,24 @@
 import CartWidget from "./CartWidget"
+import { Link } from "react-router-dom"
+
 import "./NavBar.scss"
 
 
 const NavBar = () =>{
     return(
         <div id="navbar">
-            
+            <Link to="/" >
+                <img className="nav-brand"  src="/public/img/logo.png" alt="logo" />
+            </Link>
             <ul>
-                <img className="nav-logo" src="../public/img/logo.png" alt="" />
                 <li>
-                    <a className="nav-link" href="">MOUNTAIN BIKE</a>
+                    <Link to="/categorias/mountain" className="nav-link" href="">MOUNTAIN BIKE</Link>
                 </li>
                 <li>
-                    <a className="nav-link" href="">RUTA</a>
+                    <Link to="/categorias/ruta" className="nav-link" href="">RUTA</Link>
                 </li>
                 <li>
-                    <a className="nav-link" href="">URBANA</a>
+                    <Link to="/categorias/urbana" className="nav-link" href="">URBANA</Link>
                 </li>
                 <CartWidget/>
             </ul>
